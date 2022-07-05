@@ -19,10 +19,8 @@ pipeline{
         stage('Release'){
             steps{
                 echo 'Starting Release'
-            }
-            stage('Quality') {
-                steps{
-                    echo 'starting Quality'
+             }
+           }
         }
     }
 }
