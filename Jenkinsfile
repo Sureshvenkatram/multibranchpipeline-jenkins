@@ -20,6 +20,9 @@ pipeline{
             steps{
                 echo 'Starting Release'
             }
+            stage('Quality') {
+                steps{
+                    echo 'starting Quality'
         }
     }
 }
